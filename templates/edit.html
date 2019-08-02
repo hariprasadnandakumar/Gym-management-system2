@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Index</title>  
+    {% load staticfiles %}  
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
+</head>  
+<body>  
+  <form method="POST" class="post-form" action="/update/{{user.id}}">  
+        {% csrf_token %}                      
+    <div class="container">  
+      <br>  
+      <div class="form-group row">  
+        <label class="col-sm-1 col-form-label"></label>  
+        <div class="col-sm-4">  
+        <h3>Update Details</h3>  
+      </div>  
+    </div>  
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label">Username:</label>  
+      <div class="col-sm-4">  
+        <input type="text" name="Username" id="username" required maxlength="50" value="{{ user.Username }}"/>  
+      </div>  
+    </div>  
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label"> First Name:</label>  
+      <div class="col-sm-4">  
+        <input type="text" name="First_Name" id="fname" required maxlength="50" value="{{ user.First_Name }}" />  
+      </div>  
+    </div>  
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label">LastName:</label>  
+      <div class="col-sm-4">  
+        <input type="text" name="Last_Name" id="lname" required maxlength="50" value="{{ user.Last_Name }}" />  
+      </div>  
+    </div>  
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label">Password:</label>  
+      <div class="col-sm-4">  
+        <input type="password" name="Password" id="password" required maxlength="50" value="{{ user.Password }}" />  
+      </div>  
+  </div>  
+  <div class="form-group row">  
+    <label class="col-sm-2 col-form-label">Date Of Birth:</label>  
+    <div class="col-sm-4">  
+    <input type="DATE" id="dob" name="Date_Of_Birth" value="{{ user.Date_Of_Birth }}"    
+      title="Enter a date in this format YYYY-MM-DD"  placeholder="YYYY-MM-DD"
+      required pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:30))|(?:(?:0[13578]|1[02])-31))"/>  
+    </div>  
+  </div>
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label">Email:</label>  
+      <div class="col-sm-4">  
+        <input type="text" name="Email" id="email"  value="{{ user.Email }}"  />
+      </div>  
+    </div>  
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label">Address</label>  
+      <div class="col-sm-4">  
+        <input type="text" name="Address" id="address" required maxlength="50"  value="{{ user.Address }}" />  
+      </div>  
+    </div>  
+    <div class="form-group row">  
+      <label class="col-sm-2 col-form-label">Joined_Date</label>  
+      <div class="col-sm-4"> 
+        <input type="text" name="Joined_Date"  value="{{ user.Joined_Date }}" title="Enter a date in this format YYYY-MM-DD"  placeholder="YYYY-MM-DD" required pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:30))|(?:(?:0[13578]|1[02])-31))" />  
+      </div>  
+    </div>  
+  
+  
+    <div class="form-group row">  
+      <label class="col-sm-1 col-form-label"></label>  
+      <div class="col-sm-4">  
+      <button type="submit" class="btn btn-success">Update</button>  
+      </div>  
+    </div>    
+</form>  
+</body>  
+</html>  

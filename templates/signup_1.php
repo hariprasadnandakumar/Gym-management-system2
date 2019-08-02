@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<title>Sign Up</title>
+                
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Quickdev">
+
+		<!-- ==============================================
+		Favicon
+		=============================================== -->  
+        <link rel="shortcut icon" href="img/master/favicon.png">
+		
+		<!-- ==============================================
+		CSS
+		=============================================== -->  
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="css/styles.css"> 
+        
+        <!-- ==============================================
+		Fonts
+		=============================================== -->
+        <link rel='stylesheet prefetch' href='../../../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../../cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+        <link rel='stylesheet prefetch' href='../../../cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+             
+</head>
+
+<body>
+    
+
+    
+    <!-- MAIN CONTAINER -->
+    <div class="wrapper">
+        <!-- MAIN HEADER -->
+        <div class="pages-header">
+            <div class="main">
+                    <div class="section">
+                        <div class="pages-title">
+                            <h1>Sign Up</h1>
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- END MAIN HEADER -->
+
+        <div class="container-form"  id="contact">
+            <div class="section">
+                <div class="row">
+                  <div class=" col-md-12">
+                      <div class="span-support">
+                          
+                         </br>
+                          </br>
+                         
+                          
+                      </div>
+                      <center> <form id="myform"  method="post">
+                        <div class="messages"></div>
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        
+                                       <div class="content">
+                                        
+                                        <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        
+                                        <div class="form-group">
+                                   Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="text" name="username"  placeholder="username" required="required" data-error="username is incorrect">
+                                            </br></br>
+                                          First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text"  name="f_name"  placeholder="First Name" required="required" data-error="Fisrt Name is incorrect">
+                                            </br></br>
+                                           Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="text"  name="l_name"  placeholder="Last Name" required="required" data-error="Last Name is incorrect">
+                                            </br></br>
+                                          Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="password"  name="password"  placeholder="Password" required="required" data-error="password is incorrect">
+                                            </br></br>
+                                           Date Of Birth:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="date"  name="dob"  placeholder="Date Of Birth" required="required" data-error="DOB is incorrect">
+                                            </br></br>
+                                           Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="text"  name="email"  placeholder="email" required="required" data-error="Email is incorrect">
+                                            </br></br>
+                                            Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea  type="text"  name="address"  placeholder="Address" row="6" required="required" data-error="Address is incorrect"></textarea>
+                                            </br></br>
+                                            Photo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="text"  name="photo"  placeholder="Photo" required="required" data-error="Photo is incorrect">
+                                            </br></br>
+                                            Joined Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="date"  name="joined_date"  placeholder="Joined Date" required="required" data-error="Joined Date is incorrect">
+                                            </br></br>
+                                            User Type ID:&nbsp;&nbsp; <input  type="text"  name="user_type_id"  placeholder="User Type ID" required="required" data-error="User Type ID is Required">
+                                            <div class="help-block with-errors"></div>
+					        <input type="submit" class="btn btn-warning" value="Submit"></p>
+                                    </div>
+                                        </div>
+                                        
+                                        </br>
+                                        </br>
+                                       
+                                    </div>
+                                </div>
+								 
+                                
+                                <div class="row">                                  		
+                                </div>
+                            </div>
+                                    </div>
+                                        
+                                    </div>
+                                </div>
+								 
+                                
+                              
+                            </div>
+                          </form></center>
+                  </div>
+                </div> 
+            </div>       
+        </div>
+        
+        
+    <!-- END MAIN CONTAINER -->
+    
+        
+    <a href="#" class="go-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    <!-- #JAVASCRIPTS
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    
+    <script src="js/return-top.js"></script>
+    <script src="../../../code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="../../../cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script> 
+    <script  src="js/loader.js"></script>
+    <script  src="js/maps-style.js"></script>
+</body>
+</html>
+
+
